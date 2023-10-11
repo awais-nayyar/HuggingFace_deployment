@@ -13,4 +13,4 @@ def predict(prompt):
 
 # create an interface for the model
 with gr.Interface(predict, "textbox", "text") as interface:
-    interface.launch()i
+    interface.launch()
